@@ -15,7 +15,7 @@ class CreateCostumes < ActiveRecord::Migration[5.1]
       t.float :price
       t.string :image_url
       t.string :size
-      t.timestamp
+      t.timestamp null: false
     end
   end
 end
